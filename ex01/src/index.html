@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <script src="../scripts/index.js" defer></script>
+    <title>Gallery's page</title>
+</head>
+
+<body>
+    <div class="container row">
+        <div class="column">
+            <div class="item" href="../src/image01.html" onclick="openModal(this)">
+                <img class="image" src="../images/img1.jpg" alt="Image 1">
+                <div class="overlay">
+                    <h1 class="image-title">Marathon</h1>
+                </div>
+            </div>
+            ​
+            <div class="item" href="../src/image05.html" onclick="openModal(this)">
+                <img class="image" src="../images/img5.jpg" alt="Image 5">
+                <div class="overlay">
+                    <h1 class="image-title">Weight Lifting</h1>                
+                </div>
+            </div>
+            ​
+            <div class="item" href="../src/image08.html" onclick="openModal(this)">
+                <img class="image" src="../images/img8.jpg" alt="Image 8">
+                <div class="overlay">
+                    <h1 class="image-title">Jogging</h1>                </div>
+            </div>
+        </div>
+        ​
+        <div class="column">
+            ​
+            <div class="item" href="../src/image02.html" onclick="openModal(this)">
+                <img class="image" src="../images/img2.jpg" alt="Image 2">
+                <div class="overlay">
+                    <h1 class="image-title">Gymnastics</h1>                </div>
+            </div>
+            ​
+            <div class="item" href="../src/image06.html" onclick="openModal(this)">
+                <img class="image" src="../images/img6.jpg" alt="Image 6">
+                <div class="overlay">
+                    <h1 class="image-title">Basketball</h1>                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="item" href="../src/image03.html" onclick="openModal(this)">
+                <img class="image" src="../images/img3.jpg" alt="Image 3">
+                <div class="overlay">
+                    <h1 class="image-title">Climbing</h1>                </div>
+            </div>
+            ​
+            <div class="item" href="../src/image07.html" onclick="openModal(this)">
+                <img class="image" src="../images/img7.jpg" alt="Image 7">
+                <div class="overlay">
+                    <h1 class="image-title">Swimming</h1>                </div>
+            </div>
+            ​
+            <div class="item" href="../src/image09.html" onclick="openModal(this)">
+                <img class="image" src="../images/img9.jpg" alt="Image 9">
+                <div class="overlay">
+                    <h1 class="image-title">Running</h1>  
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="item" href="../src/image04.html" onclick="openModal(this)">
+                <img class="image" src="../images/img4.jpg" alt="Image 4">
+                <div class="overlay">
+                    <h1 class="image-title">Skiing</h1>  
+                </div>
+            </div>
+            ​
+            <div class="item" href="../src/image10.html" onclick="openModal(this)">
+                <img class="image" src="../images/img10.jpg" alt="Image 10">
+                <div class="overlay">
+                    <h1 class="image-title">Cycling</h1>  
+                </div>
+            </div>
+        </div>
+        ​
+    </div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
